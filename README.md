@@ -34,11 +34,11 @@ alert(mensagemDeErro);
 ```js
 let nome = prompt('Digite o seu nome');
 ```
-10. **Peça ao usuário para digitar sua idade usando um prompt e armazene-a na variável idade.**
+9. **Peça ao usuário para digitar sua idade usando um prompt e armazene-a na variável idade.**
 ```js
 let idade = prompt('Digite sua idade');
 ```
-11. **Agora, caso a idade seja maior ou igual que 18, exiba um alerta com a mensagem "Pode tirar a habilitação!".**
+10. **Agora, caso a idade seja maior ou igual que 18, exiba um alerta com a mensagem "Pode tirar a habilitação!".**
 ```js
 if (idade >= 18) {
     alert('Pode tirar habilitação!');
