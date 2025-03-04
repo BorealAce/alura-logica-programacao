@@ -1,4 +1,5 @@
 # Resolução dos desafios do curso de lógica de programação
+## Desafio 2 - Respostas
 1. **Pergunte ao usuário qual é o dia da semana. Se a resposta for "Sábado" ou "Domingo", mostre "Bom fim de semana!". Caso contrário, mostre "Boa semana!".**
 ```js
 let diaDaSemana = prompt('Qual é o dia da semana?');
