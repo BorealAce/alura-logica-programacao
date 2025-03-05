@@ -23,20 +23,22 @@ console.log(perguntaLinguagem);
 ```js
 let valor1 = 10;
 let valor2 = 19;
-let resultado = valor1 + valor2;
+const resultado = valor1 + valor2;
 console.log(`A soma de ${valor1} e ${valor2} é igual a ${resultado}.`);
 ```
 6. **Crie uma variável chamada "valor1" e outra chamada "valor2", atribuindo a elas valores numéricos de sua escolha. Em seguida, realize a subtração desses dois valores e armazene o resultado em uma terceira variável chamada "resultado". Utilize o console.log para mostrar a mensagem "A diferença entre [valor1] e [valor2] é igual a [resultado]." no console.**
 ```js
 let valor1 = 18;
 let valor2 = 26;
-let resultado = valor1 - valor2;
+const resultado = valor1 - valor2;
 console.log(`A diferença entre ${valor1} e ${valor2} é igual a ${resultado}.`);
 ```
 7. **Peça ao usuário para inserir sua idade com prompt. Com base na idade inserida, utilize um if para verificar se a pessoa é maior ou menor de idade, exibindo uma mensagem apropriada no console.**
 ```js
-let idadeDoUsuario = parseInt(prompt('Digite sua idade:'));
-if (idadeDoUsuario >= 18) {
+let idadeDoUsuario = Number(prompt('Digite sua idade:'));
+if (isNaN(idadeDoUsuario)) {
+    console.log('Digite um número válido!');
+} else if (idadeDoUsuario >= 18) {
     console.log(`Você é maior de idade por ter ${idadeDoUsuario} anos!`);
 } else {
     console.log(`Você é menor de idade por ter ${idadeDoUsuario} anos!`);
@@ -75,12 +77,15 @@ if (nota >= 7) {
 11. **Use o Math.random para gerar qualquer número aleatório e exiba esse número no console.**
 ```js
 let numeroAleatorio = Math.random();
+console.log(numeroAleatorio);
 ```
 12. **Use o Math.random para gerar um número inteiro entre 1 e 10 e exiba esse número no console.**
 ```js
 let numero1a10 = parseInt(Math.random() * 10 + 1);
+console.log(numero1a10);
 ```
 13. **Use o Math.random para gerar um número inteiro entre 1 e 1000 e exiba esse número no console.**
 ```js
 let numero1a1000 = parseInt(Math.random() * 1000 + 1);
+console.log(numero1a1000);
 ```
